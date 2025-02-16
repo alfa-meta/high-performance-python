@@ -31,7 +31,7 @@ def visualise(simulator):
     # Call the animate function each 10 ms
     anim = animation.FuncAnimation(fig,
                                     animate,
-                                    init_function=init,
+                                    init_func=init,
                                     blit=True,
                                     interval=10)
     plt.show()

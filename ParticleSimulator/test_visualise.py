@@ -5,7 +5,8 @@ from particle_simulator import ParticleSimulator
 def test_visualise():
     particles: list[Particle] = [Particle(0.3, 0.5, 1),
                  Particle(0.0, -0.5, -1),
-                 Particle(-0.1, -0.4, 3)]
+                 Particle(-0.1, -0.4, 3),
+                 Particle(-0.2, 0.2, -0.05)]
     
     simulator = ParticleSimulator(particles)
     visualise(simulator)
